@@ -1,0 +1,130 @@
+
+html, body, main {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+.container{
+	background-color: none;
+	width: auto;
+	height:auto;
+}
+.links h1{
+	margin-left:40px;
+}
+.links a{
+float: right;
+padding: 0px;
+margin-top: 0px;
+margin-right: 10%;
+text-decoration: none;
+color:white;
+border: 10px;
+
+}
+     .outerDiv {
+     	position: relative;
+                background-color: #000000ba;
+                color: #fff;
+                height: 400px;
+                width: auto;
+                margin: 0px auto;
+                padding: 5px;
+            }
+            .leftDiv {
+                text-align: center;
+                height: 200px;
+                width: 28%;
+                float: left;
+                margin-top: 5%;
+                margin-left: 15%;
+            }
+            .leftDiv h1{
+            	color: orangered;
+            }
+            .leftDiv button{
+            	width:25%;
+            	height: 20%;
+            	border-radius: 5px;
+            	background-color: #5656f5;
+            	color: white;
+
+            }
+            .rightDiv img{
+                background-color: #efefef;
+                color: #000;
+                height: 200px;
+                width: 28%;
+                margin-top: 3%;
+                float: right;
+                margin-right: 15%;
+            }
+
+.dentalimage{
+	position:relative; 
+	width:100% max-width:600px; 
+	margin 0 auto;
+    padding: 20px; 
+    text-align:center;
+}
+
+.image {
+
+ position:relative;
+ display:inline-block;
+ width:30% ;
+ max-width:250px;
+ margin: 0 auto; 
+ padding: 0px 10px 0px 10px;
+}
+.image img{
+	border-top:10px solid #bdf1e9;
+	border-bottom:10px solid #bdf1e9;
+                height: 200px;
+                width: 80%;
+}
+.motivation{
+	position: relative;
+	background-color: #bdf1e9;
+	height: 200px;
+	width: auto;
+}
+.motivation p{
+	margin-top: 30px;
+	text-align: center;
+}
+.signup{
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	height: 100px;
+	background-color: blue;
+	border-radius: 10px;
+}
+.signup button{
+	position: relative;
+	width:10%;
+    height: 30%;
+    padding: 8px;
+    border-radius: 10px;
+    background-color: blue;
+	float: right;
+	color: white;
+	margin-right: 40px;
+}
+.signup p{
+	color:white;
+	font-size: 18px;
+	margin-left:40px;
+}
+.footer{
+	width: auto;
+	height: 80px;
+	background-color: black;
+}
+.footer p{
+	text-align: center;
+	color: white; 
+		text-shadow: 0 1px rgba(255, 255, 255, 0.1);
+}
